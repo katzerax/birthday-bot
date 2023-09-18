@@ -1,6 +1,6 @@
 import discord
 from data_manager import DataManager
-#test comment
+
 class Bot(discord.Client):
     def __init__(self):
         super().__init__(intents=discord.Intents.all())
